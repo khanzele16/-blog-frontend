@@ -1,0 +1,13 @@
+.Ads {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	min-width: 840px;
+	height: 250px;
+	background-color: #e7f5ff;
+}
+.Ads img {
+	width: 840px;
+	height: 250px;
+}

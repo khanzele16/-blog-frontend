@@ -1,0 +1,207 @@
+.PHeader {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 590px;
+	padding: 20px 25px 12px;
+}
+.PHeader-author {
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	grid-template-rows: repeat(2, auto);
+	grid-column-gap: 10px;
+	align-items: center;
+}
+.PHeader-author-subsite:hover #pheader-subsite-avatars-author {
+	opacity: 0.8;
+}
+.PHeader-author-subsite:hover #author-details-name {
+	opacity: 0.8;
+}
+.PHeader-author-subsite img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+}
+.PHeader-author-subsite #pheader-subsite-avatars-community:hover {
+	opacity: 0.8;
+}
+.PHeader-author-details {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+.PHeader-author-details p {
+	transition: all 0.2s ease;
+}
+.PHeader-author-details #author-details-other-community:hover {
+	opacity: 0.8;
+}
+.PHeader-author-details #author-details-name {
+	font-size: 15px;
+	font-family: 'Inter';
+	font-weight: bold;
+	transition: all 0.1s ease;
+	color: #c9cccf;
+}
+.PHeader-author-details #author-details-other-date {
+	font-size: 13px;
+	font-family: 'Inter';
+	font-weight: 500;
+	color: #969c9d;
+	line-height: 19px;
+	cursor: pointer;
+}
+.PHeader-author:hover #author-details-name {
+	color: #969c9d;
+}
+.PHeader-author:hover img {
+	opacity: 0.9;
+}
+.PHeader-author-subsite {
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	grid-template-rows: repeat(2, auto);
+	grid-column-gap: 10px;
+	align-items: center;
+}
+.PHeader-author-subsite #pheader-subsite-avatars {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+.PHeader-author-subsite #pheader-subsite-avatars-author {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.PHeader-author-subsite #pheader-subsite-avatars-community {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: -4px;
+	bottom: 0;
+	border-radius: 50%;
+}
+.PHeader-author-details #author-details-other {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	grid-column-gap: 6px;
+}
+.PHeader-author-details #author-details-other-community {
+	font-size: 13px;
+	font-family: 'Inter';
+	font-weight: 500;
+	color: #c9cccf;
+	line-height: 19px;
+}
+.PHeader-author-details #author-details-other-date {
+	font-size: 13px;
+	font-family: 'Inter';
+	font-weight: 500;
+	color: #969c9d;
+	line-height: 19px;
+}
+.PHeader-menu-buttons {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.PHeader-menu #pheader-menu-subscribe {
+	font-size: 13px;
+	font-family: 'Inter';
+	outline: none;
+	border: none;
+	color: #c9cccf;
+	background-color: #333333;
+	padding: 0 10px;
+	height: 28px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: all 0.1s ease;
+	box-shadow: 0 4px 25px rgba(0, 0, 0, 0.01), 0 0 0 1px #363636;
+	margin-right: 10px;
+}
+.PHeader-menu #pheader-menu-subscribe:hover {
+	background-color: #303030;
+}
+.PHeader-menu #pheader-menu-subscribe:active {
+	background-color: #2b2b2b;
+}
+.PHeader-menu #pheader-menu-dots {
+	outline: none;
+	border: none;
+	color: #c9cccf;
+	background-color: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.1s ease;
+	padding: 4px 4px 1px 4px;
+}
+.PHeader-menu #pheader-menu-dots svg {
+	width: 21px;
+	height: 21px;
+	fill: #969c9d;
+}
+.PHeader-menu #pheader-menu-dots svg path {
+	fill: #969c9d;
+}
+.PHeader-menu #pheader-menu-dots:hover {
+	background-color: #333333;
+}
+.PHeader-menu #pheader-menu-dots:active {
+	background-color: #2b2b2b;
+}
+.PHeader-dots-catalog {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	background-color: #1f1f1f;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.32), 0 0 0 1px #363636;
+	width: 230px;
+	min-height: 50px;
+	border-radius: 8px;
+	padding: 6px 0;
+	z-index: 20;
+}
+#dots-preview-catalog-li {
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 195px;
+	padding: 8px 12px 8px 10px;
+	margin-bottom: 4px;
+	transition: all 0.05s ease;
+}
+#dots-preview-catalog-li:last-child {
+	margin-bottom: 0;
+}
+#dots-preview-catalog-li:hover {
+	background-color: #313131;
+}
+#dots-preview-catalog-li p {
+	font-size: 15px;
+	font-family: 'Inter';
+	color: #c9cccf;
+}
+#dots-preview-catalog-li svg {
+	width: 20px;
+	height: 20px;
+	margin-right: 6px;
+}
+#dots-preview-catalog-li svg path {
+	stroke: #c9cccf;
+}

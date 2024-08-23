@@ -1,0 +1,118 @@
+.Preview {
+	width: 640px;
+	background-color: #232324;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 15px;
+}
+.Preview-main {
+	display: flex;
+	flex-direction: column;
+	width: 640px;
+	overflow: hidden;
+}
+.Preview-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: row;
+	width: 590px;
+	padding: 0 24px;
+}
+.Preview-footer-params {
+	display: flex;
+	align-items: center;
+	grid-column-gap: 14px;
+}
+.Preview-footer-params li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+}
+.Preview-footer-params li svg {
+	width: 18px;
+	height: 18px;
+	margin-right: 2px;
+	padding: 3px;
+	border-radius: 10px;
+	transition: all 0.2s ease;
+}
+.Preview-footer-params li:hover svg {
+	background-color: #4189f44d;
+}
+.Preview-footer-params li svg g {
+	transition: all 0.1s ease;
+	stroke: #969c9d;
+}
+.Preview-footer-params li #preview-params-save {
+	width: 16px;
+	height: 16px;
+}
+.Preview-footer-params li #preview-params-save g {
+	transition: all 0.1s ease;
+	fill: #969c9d;
+}
+.Preview-footer-params li:hover #preview-params-save g {
+	fill: #418af4;
+}
+.Preview-footer-params li p {
+	font-size: 15px;
+	font-family: 'Inter';
+	color: #969c9d;
+	font-weight: 700;
+	transition: all 0.1s ease;
+}
+.Preview-footer-params li:hover svg g {
+	stroke: #418af4;
+}
+.Preview-footer-params li:hover p {
+	color: #418af4;
+}
+.Preview-footer-params li:active svg g {
+	stroke: #3677d7;
+}
+.Preview-footer-params li:active p {
+	color: #3677d7;
+}
+.Preview-footer-eyes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+}
+.Preview-footer-eyes svg {
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+	padding: 4px;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+}
+.Preview-footer-eyes svg path {
+	stroke: #969c9d;
+	transition: all 0.2s ease;
+}
+.Preview-footer-eyes:hover svg path {
+	stroke: #418af4;
+}
+.Preview-footer-eyes p {
+	font-size: 15px;
+	font-family: 'Inter';
+	color: #969c9d;
+	font-weight: 700;
+	transition: all 0.1s ease;
+}
+.Preview-footer-eyes:hover p {
+	color: #418af4;
+}
+.Preview-footer-eyes:hover svg {
+	background-color: #4189f44d;
+}

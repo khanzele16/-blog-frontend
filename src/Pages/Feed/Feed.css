@@ -1,0 +1,10 @@
+.Feed {
+	display: grid;
+	grid-row-gap: 24px;
+	align-items: center;
+}
+.Feed-catalog {
+	display: grid;
+	grid-row-gap: 24px;
+	align-items: center;
+}

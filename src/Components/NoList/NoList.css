@@ -1,0 +1,15 @@
+.NoList {
+	width: 640px;
+	height: 270px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+.NoList p {
+	color: #969c9d;
+	font-size: 17px;
+	font-family: 'Inter';
+	font-weight: 600;
+}

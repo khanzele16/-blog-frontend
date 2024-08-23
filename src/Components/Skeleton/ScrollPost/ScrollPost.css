@@ -1,0 +1,14 @@
+.ScrollPost {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 640px;
+	height: 60px;
+	background-color: #232324;
+	border-radius: 10px;
+}
+.ScrollPost svg {
+	width: 28px;
+	height: 28px;
+}

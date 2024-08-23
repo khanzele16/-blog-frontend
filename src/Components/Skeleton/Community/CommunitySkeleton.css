@@ -1,0 +1,24 @@
+.CommunitySkeleton {
+	width: 185px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: spa;
+	padding: 0 10px;
+	transition: all 0.1s ease;
+	cursor: pointer;
+}
+.CommunitySkeleton-circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 12px;
+	background-color: #353436;
+}
+.CommunitySkeleton-title {
+	width: 115px;
+	height: 15px;
+	border-radius: 5px;
+	background-color: #353436;
+}

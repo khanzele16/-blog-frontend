@@ -1,0 +1,186 @@
+#header-profile-control {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	transition: all 0.2s ease;
+	position: relative;
+}
+#header-profile-control-preview {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+#header-profile-control-preview:hover {
+	opacity: 0.6;
+}
+#header-profile-control-preview img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+#header-profile-control-preview svg {
+	width: 14px;
+	height: 14px;
+}
+#header-profile-control-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	flex-direction: column;
+	background-color: #1f1f1f;
+	top: 46px;
+	right: 0;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.32), 0 0 0 1px #363636;
+	width: 320px;
+	padding: 16px 8px 10px;
+	border-radius: 10px;
+}
+#header-profile-control-bar-top {
+	width: 302px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	grid-column-gap: 10px;
+	padding: 0 9px 12px;
+}
+#header-profile-control-bar-top-title {
+	font-size: 15px;
+	font-family: 'Inter';
+	font-weight: bold;
+	color: #c9cccf;
+}
+#header-profile-control-bar-top-username {
+	font-size: 15px;
+	font-family: 'Inter';
+	font-weight: 400;
+	color: #969c9d;
+}
+#header-profile-control-bar-list {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 320px;
+	grid-row-gap: 2px;
+}
+#header-profile-control-bar-list li:hover {
+	background-color: #333;
+}
+#header-profile-control-bar-list #profile-list-item-profile {
+	display: flex;
+	align-items: center;
+	width: 306px;
+	height: 60px;
+	grid-column-gap: 10px;
+	padding-left: 12px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+#header-profile-control-bar-list #profile-list-item-profile img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+#header-profile-control-bar-list #profile-list-item-profile-info-name {
+	font-size: 20px;
+	font-family: 'Inter';
+	font-weight: 500;
+	color: #c9cccf;
+	line-height: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#header-profile-control-bar-list #profile-list-item-profile-info-about {
+	font-size: 15px;
+	font-family: 'Inter';
+	color: #969c9d;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#header-profile-control-bar-list #profile-list-item-map {
+	display: flex;
+	align-items: center;
+	width: 306px;
+	height: 48px;
+	grid-column-gap: 5px;
+	padding-left: 14px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+#header-profile-control-bar-list #profile-list-item-map svg {
+	margin-right: 4px;
+}
+#header-profile-control-bar-list #profile-list-item-map p {
+	font-size: 17px;
+	font-family: 'Inter';
+	color: #c9cccf;
+}
+#header-profile-control-bar-list #profile-list-item-map #profile-list-draft {
+	width: 22px;
+	height: 22px;
+}
+#header-profile-control-bar-list #profile-list-item-map #profile-list-save {
+	width: 20px;
+	height: 20px;
+	margin-right: 7px;
+}
+#header-profile-control-bar-list #profile-list-item-map #profile-list-settings {
+	width: 22px;
+	height: 22px;
+	margin-right: 6px;
+}
+#header-profile-control-bar-list #profile-list-item-plus {
+	display: flex;
+	align-items: center;
+	width: 306px;
+	height: 48px;
+	grid-column-gap: 5px;
+	padding-left: 14px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+#header-profile-control-bar-list #profile-list-item-plus p {
+	font-size: 17px;
+	font-family: 'Inter';
+	color: #c9cccf;
+}
+#header-profile-control-bar-list #profile-list-item-plus svg {
+	width: 24px;
+	height: 24px;
+	margin-right: 6px;
+}
+#header-profile-control-bar-list #profile-list-item-logout {
+	display: flex;
+	align-items: center;
+	width: 306px;
+	height: 48px;
+	grid-column-gap: 5px;
+	padding-left: 12px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+#header-profile-control-bar-list #profile-list-item-logout p {
+	font-size: 17px;
+	font-family: 'Inter';
+	color: #ff2a2a;
+	font-weight: bold;
+}
+#header-profile-control-bar-list #profile-list-item-logout svg {
+	width: 25px;
+	height: 25px;
+	margin-right: 6px;
+}

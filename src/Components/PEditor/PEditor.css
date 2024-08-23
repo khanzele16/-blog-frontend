@@ -1,0 +1,101 @@
+.PEditor {
+	display: flex;
+	flex-direction: column;
+	width: 640px;
+	overflow: hidden;
+}
+.PEditor #post-content-title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	--icon-color: #197aba;
+	color: #c9cccf;
+	--offset: 12px;
+	padding: 0 24px 8px;
+	font-family: 'Inter';
+}
+.PEditor #post-content-media {
+	width: 592px;
+	background-color: hsla(210, 69%, 63%, 0.3);
+	margin: 0 24px 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	border-radius: 10px;
+}
+.PEditor #post-content-media-image {
+	display: block;
+	font-family: 'Inter';
+	line-height: 26px;
+	font-size: 17px;
+	color: #c9cccf;
+	max-width: 592px;
+	max-height: 480px;
+}
+.PEditor #post-content-text {
+	font-family: 'Inter';
+	padding: 0 24px;
+	margin-bottom: 12px;
+}
+.PEditor p {
+	font-size: 17px;
+	line-height: 24px;
+	color: #c9cccf;
+}
+.PEditor a {
+	font-size: 17px;
+	line-height: 24px;
+	color: #418af4;
+}
+.PEditor i {
+	font-size: 17px;
+	line-height: 24px;
+	color: #c9cccf;
+}
+.PEditor b {
+	font-size: 17px;
+	line-height: 24px;
+	color: #c9cccf;
+	font-weight: 600;
+}
+.PEditor #post-content-list {
+	font-family: 'Inter';
+	margin: 0 39px 12px 24px;
+}
+.PEditor #post-content-list li {
+	position: relative;
+}
+.PEditor #post-content-list li:before {
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: -20px;
+	width: 6px;
+	height: 6px;
+	background-color: #c9cccf;
+	border-radius: 100%;
+}
+.PEditor li {
+	font-size: 17px;
+	line-height: 24px;
+	color: #c9cccf;
+	margin: 8px 0 8px 34px;
+}
+.PEditor #post-content-delimiter {
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	margin: 12px 0;
+	position: relative;
+}
+.PEditor #post-content-delimiter:before {
+	content: '***';
+	position: absolute;
+	color: #c9cccf;
+	font-family: 'Inter';
+	font-size: 36px;
+	font-weight: 500;
+}

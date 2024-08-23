@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap&family=Inter:wght@400;500;600;700;800;900&display=swap');
+:root {
+	color-scheme: dark;
+}
+body {
+	background-color: #161617;
+}
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+.App {
+	position: relative;
+	transition: all 0.3s ease;
+}
+.App-ads {
+	cursor: pointer;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	background-color: #26282b;
+	height: 60px;
+	position: sticky;
+	top: 0;
+	z-index: 20;
+}
+.App-content {
+	display: grid;
+	grid-template-columns: 220px 640px 320px;
+	grid-column-gap: 50px;
+	width: 1280px;
+	margin: 0 auto;
+}
+.App-content-main {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.App-content-aside {
+	position: sticky;
+	top: 60px;
+	height: 870px;
+}
+.App-content-aside #app-aside-banner {
+	background-color: #232324;
+	border-radius: 10px;
+	width: 300px;
+	height: 600px;
+	margin-top: 15px;
+}
+.App-content-aside #app-aside-mini {
+	background-color: #232324;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-top: 30px;
+}
